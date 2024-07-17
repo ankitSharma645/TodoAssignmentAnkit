@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.title2{
+  margin-left: 500px;
+  margin-bottom: 45px;
+}
+.title2 h2{
+  font-weight: 400;
+  font-size: 2.5rem;
+}
+.title2 span{
+  color: #0056b3;
+}
+
+span{
+  color: #0056b3;
+
+}

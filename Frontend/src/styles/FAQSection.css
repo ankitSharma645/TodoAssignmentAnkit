@@ -1,0 +1,127 @@
+.faq-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  margin: 0 100px;
+  background-color: #ffffff;
+  width: 78%;
+  margin-left: 150px;
+  margin-top: 50px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 1px rgba(179, 179, 179, 0.795);
+}
+
+.faq-container h2 {
+  font-size: 28px;
+  font-weight: 300;
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.faq-container h2 span {
+  color: #007bff;
+}
+
+.faq-content-wrapper {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.faq-categories {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+  width: 40%;
+}
+
+.faq-category {
+  background-color: #ffffff;
+  border: 1px solid rgb(175, 175, 175);
+  box-shadow: 1px 1px 1px 0px rgb(184, 184, 184);
+  padding: 10px;
+  margin-bottom: 20px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+  text-align: left;
+  color: #0048e5;
+}
+
+.faq-category.active, .faq-category:hover {
+  background-color: #d0cfcf;
+}
+
+.faq-content {
+  margin-left: 80px;
+  margin-top: 10px;
+  width: 70%;
+}
+
+.faq-item details {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #e0e0e0;
+  padding-bottom: 10px;
+}
+
+.faq-item summary {
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  color: #007bff;
+}
+
+.faq-item p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+/* Media Query for 600px width */
+@media (max-width: 600px) {
+  .faq-container {
+    margin: 0 20px;
+    width: auto;
+    margin-left: 40px;
+    margin-top: 20px;
+    padding: 15px;
+  }
+
+  .faq-container h2 {
+    font-size: 24px;
+    margin-bottom: 40px;
+  }
+
+  .faq-content-wrapper {
+    flex-direction: column;
+  }
+
+  .faq-categories {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .faq-category {
+    font-size: 14px;
+    margin-bottom: 15px;
+  }
+
+  .faq-content {
+    margin-left: 0;
+    width: 100%;
+    margin-top: 20px;
+  }
+
+  .faq-item details {
+    margin-bottom: 15px;
+  }
+
+  .faq-item summary {
+    font-size: 16px;
+  }
+
+  .faq-item p {
+    font-size: 14px;
+  }
+}

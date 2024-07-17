@@ -1,0 +1,99 @@
+/* TodoList.css */
+
+.todo-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .todo-list-container h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+  
+  .todo-list {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .todo-list li {
+    margin-bottom: 20px;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .todo-list li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  .todo-list li.completed-item {
+    background-color: #d4edda; /* Background color for completed items */
+  }
+  
+  .todo-list li > div {
+    display: flex;
+    flex-wrap: wrap; /* Ensure flex items wrap */
+    gap: 10px; /* Space between flex items */
+    align-items: center;
+  }
+  
+  .todo-list li h2 {
+    font-size: 30px;
+    font-weight: 400;
+    
+  }
+  
+  .todo-list li p {
+    margin-bottom: 10px;
+    font-size: 16px;
+    margin-right: 30px;
+    color: #666;
+  }
+  
+  .todo-list li p.description {
+    white-space: pre-wrap; /* Wrap long descriptions */
+    
+  }
+  
+  .todo-list li p.date {
+    font-size: 20px;
+    color: #000000;
+    font-weight: 500;
+  }
+  
+  .todo-list li button {
+    margin-right: 20px;
+    
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .todo-list li button:hover {
+    background-color: #0056b3;
+  }
+  
+  .edit-button {
+    background-color: #28a745; /* Green for edit button */
+  }
+  
+  .delete-button {
+    background-color: #dc3545; /* Red for delete button */
+  }
+  

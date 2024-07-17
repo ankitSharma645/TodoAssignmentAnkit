@@ -1,0 +1,145 @@
+.footer {
+  background-color: #ffffff;
+  padding: 40px 20px;
+  margin-left: 150px;
+  margin-right: 150px;
+  border-radius: 10px;
+  box-shadow: 1px 1px 4px 1px rgba(164, 157, 157, 0.795);
+  margin-top: 30px;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+}
+
+.footer-header {
+  margin-left: 500px;
+}
+
+.footer-header h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.about-section,
+.contact-section,
+.social-section {
+  flex: 1 1 300px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.about-image img {
+  width: 450px;
+  border-radius: 8px;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+
+.about-content h3 {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.about-content p {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin-left: 30px;
+}
+
+.contact-section h3,
+.social-section h3 {
+  font-size: 1.2rem;
+  margin-top: 10px;
+  margin-left: 30px;
+}
+
+.contact-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.social-links {
+  display: flex;
+}
+
+.social-links a {
+  display: inline-block;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.social-links a:hover {
+  color: #20c997;
+}
+
+.footer-bottom {
+  font-size: 2rem;
+  text-align: center;
+  color: #000000;
+  margin-left: 450px;
+}
+
+@media (max-width: 600px) {
+  .footer {
+    margin-left: 20px;
+    margin-right: 20px;
+    max-width: calc(100% - 40px);
+  }
+
+  .footer-header {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .footer-header h2 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-section,
+  .contact-section,
+  .social-section {
+    flex: 1 1 auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 100%;
+  }
+
+  .about-image img {
+    width: 100%;
+    margin-right: 0;
+  }
+
+  .about-content h3 {
+    font-size: 1.2rem;
+  }
+
+  .about-content p {
+    font-size: 0.9rem;
+    margin-left: 0;
+  }
+
+  .contact-section h3,
+  .social-section h3 {
+    font-size: 1rem;
+    margin-left: 0;
+  }
+
+  .footer-bottom {
+    font-size: 1rem;
+    margin-left: 0;
+    margin-top: 20px;
+  }
+}
